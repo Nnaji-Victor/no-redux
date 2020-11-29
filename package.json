@@ -14,6 +14,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,7 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nnaji-victor.github.io/no-redux/",
-  "predeploy": "yarn build",
-  "deploy": "gh-pages -d build"
+  "homepage": "https://nnaji-victor.github.io/no-redux/"
 }
